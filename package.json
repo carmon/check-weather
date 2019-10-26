@@ -1,0 +1,20 @@
+{
+  "name": "check-weather",
+  "version": "1.0.0",
+  "description": "Node app to check current weather in a specified location",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node ./lib/index.js"
+  },
+  "author": "Carmon",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.11.7",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@types/request": "^2.48.3",
+    "request": "^2.88.0"
+  }
+}
